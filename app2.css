@@ -1,0 +1,26 @@
+.app-container {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+form input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1f8a70;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
